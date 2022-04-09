@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Note application",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd client && npm install",
+    "preinstall": "cd server && npm install",
+    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev"
+  },
+  "author": "Aatu Laitinen",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
