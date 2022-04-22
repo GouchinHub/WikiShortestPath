@@ -2,7 +2,6 @@ import "./App.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Main from "./pages/Main";
-import AddNote from "./pages/AddNote";
 import { Box } from "@mui/material";
 
 const queryClient = new QueryClient();
@@ -19,14 +18,6 @@ const App = () => {
                 element={
                   <>
                     <Main />
-                  </>
-                }
-              />
-              <Route
-                path="/addnote"
-                element={
-                  <>
-                    <AddNote />
                   </>
                 }
               />

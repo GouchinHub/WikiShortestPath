@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header/StandardHeader";
-import TopicList from "../components/Topic/TopicList";
+import MainContent from "../components/Main/MainContent";
 
 const Main = () => {
   return (
     <>
       <Header />
-      <TopicList />
+      <MainContent />
     </>
   );
 };

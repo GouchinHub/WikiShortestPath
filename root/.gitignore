@@ -117,3 +117,6 @@ dist
 
 #misc.
 .dir-locals.el
+
+#Python venv
+venv/
