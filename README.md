@@ -1,26 +1,32 @@
-# NoteApp
-Distributed systems, Assignment 2
+# WikiShortestPath Application
+Distributed systems, Course project
 
-Node.js is required to run the application
+Node.js, python, Flask and pip are required to run the application
 
-## Usage
 
-### In root folder run the following to install all dependencies
+## Usage (on windows)
 
+### In root folder run the following to install dependencies and start a client
 
 ```
-npm run preinstall
+cd client
 npm run install
+npm run
 ```
 
 ### To run the server in local development environment
 
+
+#### Run the following to setup environment and dependencies
 ```
-npm run dev:server
+cd server
+python -m pip install --user virtualenv
+python -m venv env
+.\venv\Scripts\activate.ps1
 ```
 
-### To open clients in local development environment
+#### Run the following to start the server
+```
+python -u .\server.py
+```
 
-```
-npm run dev:client
-```
